@@ -1,0 +1,21 @@
+<body>
+  <div class="container" tabindex="0" id="pasteArea">
+    <h1>Image to Text Converter</h1></n><h3>By Sanwad More</h3>
+    
+    <input type="file" id="imageInput" accept="image/*">
+    <p><strong>Or paste an image (Ctrl + V)</strong></p>
+    <button onclick="extractText()">Convert to Text</button>
+
+    <div id="previewContainer">
+      <img id="imagePreview" alt="Image Preview" />
+    </div>
+
+    <div id="outputContainer">
+      <h3>Extracted Text:</h3>
+      <pre id="outputText"></pre>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>

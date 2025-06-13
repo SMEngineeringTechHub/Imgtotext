@@ -1,0 +1,10 @@
+#pasteArea {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  cursor: text;
+}
+
+#pasteArea:focus {
+  outline: none;
+  border-color: #007bff;
+}
